@@ -2,16 +2,34 @@ body {
     background-color: white;
 }
 
+body ::selection {
+    color: #06eff7;
+    background: #000000;
+}
+
+header {
+    padding: 1px;
+    margin-bottom: 500px;
+}
+
 #menuhome {
     background-color: #303030;
     color: #FFFFFF;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    padding-left: 30px;
+    padding-left: 50px;
     margin-top: 0px;
-    height: 300px;
+    height: 400px;
+    margin: -0.53%;
 }
 
 #menuhome h1 {
-    padding-top: 120px;
+    padding-top: 145px;
     font-size: 50px;
+}
+
+#menuhome p {
+    padding-bottom: 50px;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
 }
