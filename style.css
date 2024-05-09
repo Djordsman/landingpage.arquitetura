@@ -30,24 +30,39 @@ header {
 
 #menuhome p {
     padding-bottom: 50px;
-    font-size: 20px;
+    font-size: 18.7px;
     position: relative;
     bottom: 20px;
 }
 
 #dadoseinfo {
-    background-color: rgb(143, 224, 231);
-    width: 100vw;
+    background-color: rgb(218, 206, 98);
+    width: 98.8vw;
     padding-top: 30px;
-    height: 200px;
+    height: 170px;
 }
 
 .info {
     display: inline-block;
     font-size: 23px;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 .info p {
-    font-size: 20px;
+    font-size: 21px;
+    position: relative;
+    bottom: 20px;
+}
+
+img {
+    margin-top: 60px;
+    width: 400px;
+    position: relative;
+    left: 990px;
+}
+
+.texto-mkt {
+    position: relative;
+    bottom: 350px;
+    margin-left: 100px;
 }
