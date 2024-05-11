@@ -36,16 +36,18 @@ header {
 }
 
 #dadoseinfo {
-    background-color: rgb(218, 206, 98);
+    background-color: rgb(247, 247, 247);
     width: 98.8vw;
     padding-top: 30px;
     height: 170px;
+    font-style: bolder;
 }
 
 .info {
     display: inline-block;
     font-size: 23px;
     padding-left: 150px;
+    font-style: bolder;
 }
 
 .info p {
@@ -65,4 +67,11 @@ img {
     position: relative;
     bottom: 350px;
     margin-left: 100px;
+}
+
+.texto-mkt p {
+    font-style: normal;
+    font-size: 25px;
+    font-weight:100;
+    margin-top: 50px;
 }
