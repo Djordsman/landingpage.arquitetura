@@ -75,3 +75,51 @@ img {
     font-weight:100;
     margin-top: 50px;
 }
+
+form {
+    background-color: #303030;
+    align-items: center;
+    height: 370px;
+}
+
+form h1 {
+    padding-top: 60px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+input {
+    font-family: "Raleway", sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+}
+
+input:focus {
+    font-family: "Raleway", sans-serif;
+    background: #e6a210;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: none;
+    border: solid 2px #000000;
+}
+
+button {  
+    background-color: #C07212;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 40px;
+    width: 270px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
